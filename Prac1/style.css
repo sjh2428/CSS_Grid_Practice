@@ -1,0 +1,144 @@
+body {
+    background-color: #ecf0f1;
+}
+
+.header_container{
+    display: grid;
+    grid-gap: 5px;
+    grid-auto-rows: 200px;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.content_container{
+    display: grid;
+    grid-gap: 5px;
+    grid-auto-rows: 400px;
+}
+
+.content1_wrapper{
+    display: grid;
+    grid-column-gap: 5px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.content1_1{
+    background-color: #81ecec;
+}
+
+.content1_2{
+    background-color: #b2bec3;
+}
+
+.content2_wrapper{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.content2_1{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr; 
+}
+
+.content2_1_1 {
+    background-color: #b8e994;
+}
+
+.content2_1_2 {
+    background-color: #dcdde1;
+}
+
+.content2_2{
+    background-color: #636e72;
+}
+
+.content2_3{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr; 
+}
+
+.content2_3_1{
+    background-color: #ffeaa7;
+}
+
+.content2_3_2{
+    background-color: #b2bec3;
+}
+
+.content3_wrapper{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.content3_1{
+    background-color: #ff9ff3;
+}
+
+.content3_2{
+    background-color: #c8d6e5;
+}
+
+.content4_wrapper{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.content4_2{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: 1fr 1fr;
+}
+
+.content4_1{
+    background-color: #c7ecee;
+}
+
+.content4_2_1{
+    background-color: #CAD3C8;
+}
+
+.content4_2_2{
+    background-color: #18dcff;
+}
+
+.content5_wrapper{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.content5_2{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-rows: 1fr 1fr;
+}
+
+.content5_1{
+    background-color: #32ff7e;
+}
+
+.content5_2_1{
+    background-color: #4b4b4b;
+}
+
+.content5_2_2{
+    background-color: #fff200;
+}
+
+.logo{
+    background-color: black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
